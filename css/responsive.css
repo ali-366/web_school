@@ -1,0 +1,59 @@
+/* for Extra-small devive css  */
+
+@media (max-width:575px) {
+    .navbar .navbar-brand{
+        position: unset !important;
+    }
+    .navbar-toggler{
+        background: #fff;
+    }
+    .navbar-nav .nav-link{
+        padding-left: 20px;
+    }
+    .navbar-nav .nav-link:hover{
+        background: rgb(104, 104, 104);
+    }
+    #banner .main-banner .banner-item h4{
+        font-size: 20px;
+    }
+    #banner .main-banner .banner-item h1{
+        font-size: 30px;
+    }
+    #service1 .request p{
+        text-align: center;
+    }
+    #why h3::after {
+        top: 89px;
+    }
+    #why {
+
+        padding-bottom: -20px; 
+    }
+    #counterUp{
+    
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #courses h3::after {
+        top: 87px;
+    }
+    #courses .coures-content .item{
+        margin-top: 30px;
+    }
+    #upcomming h3::after{
+        top: 85px;
+    }
+    #blog .heading p {
+     padding: 0px 0px; 
+    }
+    #blog .item h6 {
+        bottom: 41%;
+    }
+    #mail form button {
+        margin-top: 6px; 
+        margin-left: 0px;
+    }
+   
+   
+}
+/* for Extra-small devive css  */
