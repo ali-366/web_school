@@ -84,6 +84,7 @@ ul,li{
 #top-nav .left-text .phone:hover a{
 	color: aqua;
 }
+
 #top-nav .left-text .phone a{
 	text-decoration: none;
 	text-align: center;
@@ -118,11 +119,9 @@ ul,li{
 	-ms-transition: all linear 0.4s;
 	-o-transition: all linear 0.4s;
 }
-#top-nav .right-icon{
-	text-align: end;
-}
 #top-nav .right-icon .icon{
 	position: relative;
+
 }
 #top-nav .right-icon .icon::after {
 	content: '';
@@ -136,7 +135,6 @@ ul,li{
 #top-nav .right-icon .icon i{
 	width: 30px;
 	height: 30px;
-	text-align: center;
 	line-height: 40px;
 	cursor: pointer;
 	transition: all linear 0.4s;
@@ -801,7 +799,6 @@ nav .collapse > a:hover{
 	text-align: center;
 }
 #testimonials .testimonial-content{
-	width: 550px;
 	margin: 0 auto;
 }
 
@@ -917,6 +914,9 @@ background: gold;
 	padding-bottom: 20px;
 	text-decoration: none;
 	color: #fff;
+}
+#footer .right-sidetext{
+	
 }
 #footer .right-sidetext ul li a{
 	text-decoration: none;
